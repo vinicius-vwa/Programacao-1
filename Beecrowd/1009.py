@@ -1,0 +1,6 @@
+func = input('Digite o nome do funcionário: ')
+sb = float(input('Digite o salário base: '))
+v = float(input('Digite o número de vendas: '))
+comissao = (v*0.15)
+sf = (sb + comissao)
+print('Como o funcionário {} realizou {} vendas, o seu salário base de {} passa a ser de {:.2f}'.format(func, v, sb, sf))

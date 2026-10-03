@@ -1,0 +1,5 @@
+func = input('Digite o número do funcionário: ')
+valor =  float(input('Digite o valor por horas trabalhadas: '))
+horas = float(input('Digte o número de horas trabalhadas: '))
+salario = (horas*valor)
+print('Número do funcionário: {}\nSalário: {}'.format(func, salario))
